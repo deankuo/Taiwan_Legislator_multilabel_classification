@@ -63,6 +63,12 @@ def parse_args():
         required=True,
     )
     parser.add_argument(
+        "--tokenizer_name_or_path",
+        type=str,
+        default="bert-base-chinese",
+        help="Require if using a different tokenizer from model"
+    )
+    parser.add_argument(
         "--per_device_train_batch_size",
         type=int,
         default=8,
@@ -199,7 +205,7 @@ def main():
     args = parse_args()
     
     # Model
-    tokenizer = BertTokenizer.from_pretrained(args.model_name_or_path)
+    tokenizer = BertTokenizer.from_pretrained(args.tokenizer_name_or_path)
     model = LongformerForSequenceClassification.from_pretrained(
         args.model_name_or_path,
         num_labels=args.num_label,
