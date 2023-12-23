@@ -1,5 +1,5 @@
-# ADL2023_Final_Project
-This repository is dedicated to the 2023 ADL final project, collaboratively developed by Peng-Ting Kuo and Yu-Hung Sun.
+# Multi-label Model for Legislators’ Questioning Classification 
+This repository is dedicated to the 2023 ADL final project (Group 7), collaboratively developed by Peng-Ting Kuo (R10322029) and Yu-Hung Sun (R10343017).
 
 ## Detailed instructions are provided for replicating the training process and subsequent evaluation.
 ### First, download the dataset (Due to the confidential nature of the dataset, we are unable to provide a download link.)
