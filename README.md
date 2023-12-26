@@ -54,7 +54,9 @@ For visualizing data distribution and training logs used in our report and prese
 | Longformer + no punc | 82.15 | 71.88 | **87.95** | 85.56 | 86.74 |
 | RoBERTa              | 73.55 | 60.70 | 81.28 | 77.40 | 79.34 |
 | RoBERTa-large        | 74.28 | 61.81 | 70.56 | 83.97 | 77.27 |
-|TAIWAN-LLM            | 67.78 | 56.79 | 57.13 | 45.97 | 51.55 |
+|TAIWAN-LLM + tuning   | 67.78 | 56.79 | 57.13 | 45.97 | 51.55 |
+|TAIWAN-LLM + zero_shot| 67.78 | 56.79 | 57.13 | 45.97 | 51.55 |
+|TAIWAN-LLM + few_shot| 67.78 | 56.79 | 57.13 | 45.97 | 51.55 |
 
 
   
