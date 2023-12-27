@@ -58,8 +58,8 @@ For visualizing data distribution and training logs used in our report and prese
 |TAIWAN-LLM + few_shot| 43.64 | 39.04 | 49.86 | 46.22 | 35.71 |
 |TAIWAN-LLM + zero_shot| 42.29 | 37.96 | 50.03 | 45.97 | 34.09 |
 
+## For more comprehensive steps of how we done it, view `ADL_Final_Project_Longformer.ipynb`
 
-  
 ## Demo
 We have hosted a demo interface on HuggingFace. You can experiment with this model at <https://huggingface.co/spaces/dean22029/multi-lable_classification>.  
 To launch this interface, run `app.py`.
