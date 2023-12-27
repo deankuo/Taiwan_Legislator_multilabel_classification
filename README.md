@@ -55,8 +55,8 @@ For visualizing data distribution and training logs used in our report and prese
 | RoBERTa              | 73.55 | 60.70 | 81.28 | 77.40 | 79.34 |
 | RoBERTa-large        | 74.28 | 61.81 | 70.56 | 83.97 | 77.27 |
 |TAIWAN-LLM + instruction tuning   | 67.78 | 56.79 | 54.66 | 52.97 | 51.55 |
-|TAIWAN-LLM + zero_shot| 43.64 | 39.04 | 49.86 | 46.22 | 35.71 |
-|TAIWAN-LLM + few_shot| 42.29 | 37.96 | 50.03 | 45.97 | 34.09 |
+|TAIWAN-LLM + few_shot| 43.64 | 39.04 | 49.86 | 46.22 | 35.71 |
+|TAIWAN-LLM + zero_shot| 42.29 | 37.96 | 50.03 | 45.97 | 34.09 |
 
 
   
