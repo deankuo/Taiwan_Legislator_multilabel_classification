@@ -1,10 +1,15 @@
 # Multi-label Model for Legislators’ Questioning Classification 
-This repository is dedicated to the 2023 ADL final project (Group 7), collaboratively developed by Peng-Ting Kuo (R10322029) and Yu-Hung Sun (R10343017).
+This repository is dedicated to the 2023 ADL final project (Group 7), collaboratively developed by Peng-Ting Kuo (R10322029) and Yu-Hung Sun (R10343017).  
+The Graph folder contains all of the graphs we used in the report and presentation.  
+`run.sh` and `plot.sh` is for one-step replication.  
 
 ## Detailed instructions are provided for replicating the training process and subsequent evaluation.
 ### First, download the dataset (Due to the confidential nature of the dataset, we are unable to provide a download link.)
+```
+Path/to/Your/Dataset
+```
 
-### Subsequently, execute predict.py to generate the results.
+### Subsequently, execute predict.py to generate the results and the evaluation.
 ```
 !bash run.sh data/test.json data/test_answer.json
 ```
@@ -58,8 +63,11 @@ For visualizing data distribution and training logs used in our report and prese
 |TAIWAN-LLM + few_shot| 43.64 | 39.04 | 49.86 | 46.22 | 35.71 |
 |TAIWAN-LLM + zero_shot| 42.29 | 37.96 | 50.03 | 45.97 | 34.09 |
 
-For more comprehensive steps of how we done it, view `ADL_Final_Project_Longformer.ipynb`.
+## Additional Information
+To gain a detailed understanding of our methodology, we invite you to explore our Jupyter notebook files. These notebooks provide a comprehensive guide to the steps and processes we followed:  
+  1. Longformer Pre-Trained Model Experiment: For insights into our work with the Longformer pre-trained model, refer to the notebook `ADL_Final_Project_Longformer.ipynb`, authored by Peng-Ting Kuo. This notebook offers an in-depth look at our experiment and findings.  
+  2. Taiwan-LLAMA Related Experiment: If you are keen on learning about our experiment related to Taiwan-LLAMA, please view the notebook `4class_TWLLM.ipynb`, crafted by Yu-Hung Sun. It provides a thorough exploration of our approach and results in this report.  
 
 ## Demo
-We have hosted a demo interface on HuggingFace. You can experiment with this model at <https://huggingface.co/spaces/dean22029/multi-lable_classification>.  
+We have hosted a demo interface on HuggingFace. You can experiment with this model at [HuggingFace Spaces](https://huggingface.co/spaces/dean22029/multi-lable_classification).  
 To launch this interface, run `app.py`.
